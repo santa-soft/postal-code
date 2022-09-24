@@ -1,0 +1,11 @@
+{
+    "deno.enable": true,
+    "deno.unstable": true,
+    "deno.lint": true,
+    "deno.suggest.imports.hosts": {
+        "https://deno.land": true,
+        "https://x.nest.land": true,
+        "https://crux.land": true
+    },
+    "deno.testing.enable": true
+}
