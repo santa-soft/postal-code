@@ -1,0 +1,268 @@
+[
+  {
+    "code": 10230,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Khan Na Yao", "th": "คันนายาว" },
+    "subDistrict": { "en": "Khan Na Yao", "th": "คันนายาว" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10230,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Khan Na Yao", "th": "คันนายาว" },
+    "subDistrict": { "en": "Ram Inthra", "th": "รามอินทรา" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10250,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "subDistrict": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10250,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "subDistrict": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10250,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "subDistrict": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10250,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "subDistrict": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10250,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "subDistrict": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10250,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "subDistrict": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10240,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "subDistrict": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10240,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "subDistrict": { "en": "Rat Phatthana", "th": "ราษฎร์พัฒนา" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10250,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Saphan Sung", "th": "สะพานสูง" },
+    "subDistrict": { "en": "Thap Chang", "th": "ทับช้าง" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10310,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Wang Thonglang", "th": "วังทองหลาง" },
+    "subDistrict": { "en": "Wang Thonglang", "th": "วังทองหลาง" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10310,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Wang Thonglang", "th": "วังทองหลาง" },
+    "subDistrict": { "en": "Saphan Song", "th": "สะพานสอง" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10310,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Wang Thonglang", "th": "วังทองหลาง" },
+    "subDistrict": { "en": "Khlong Chao Khun Sing", "th": "คลองเจ้าคุณสิงห์" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10310,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Wang Thonglang", "th": "วังทองหลาง" },
+    "subDistrict": { "en": "Phlapphla", "th": "พลับพลา" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10510,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Khlong Sam Wa", "th": "คลองสามวา" },
+    "subDistrict": { "en": "Sam Wa Tawan Tok", "th": "สามวาตะวันตก" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10510,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Khlong Sam Wa", "th": "คลองสามวา" },
+    "subDistrict": { "en": "Sam Wa Tawan Ok", "th": "สามวาตะวันออก" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10510,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Khlong Sam Wa", "th": "คลองสามวา" },
+    "subDistrict": { "en": "Bang Chan", "th": "บางชัน" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10510,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Khlong Sam Wa", "th": "คลองสามวา" },
+    "subDistrict": { "en": "Sai Kong Din", "th": "ทรายกองดิน" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10510,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Khlong Sam Wa", "th": "คลองสามวา" },
+    "subDistrict": { "en": "Sai Kong Din Tai", "th": "ทรายกองดินใต้" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10260,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Bang Na", "th": "บางนา" },
+    "subDistrict": { "en": "Bang Na Nuea", "th": "บางนาเหนือ" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10260,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Bang Na", "th": "บางนา" },
+    "subDistrict": { "en": "Bang Na Tai", "th": "บางนาใต้" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10170,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Thawi Watthana", "th": "ทวีวัฒนา" },
+    "subDistrict": { "en": "Thawi Watthana", "th": "ทวีวัฒนา" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10170,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Thawi Watthana", "th": "ทวีวัฒนา" },
+    "subDistrict": { "en": "Sala Thammasop", "th": "ศาลาธรรมสพน์" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10140,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Thung Khru", "th": "ทุ่งครุ" },
+    "subDistrict": { "en": "Bang Mot", "th": "บางมด" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10140,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Thung Khru", "th": "ทุ่งครุ" },
+    "subDistrict": { "en": "Thung Khru", "th": "ทุ่งครุ" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10150,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Bang Bon", "th": "บางบอน" },
+    "subDistrict": { "en": "Bang Bon Nuea", "th": "บางบอนเหนือ" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10150,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Bang Bon", "th": "บางบอน" },
+    "subDistrict": { "en": "Bang Bon Tai", "th": "บางบอนใต้" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10150,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Bang Bon", "th": "บางบอน" },
+    "subDistrict": { "en": "Khlong Bang Phran", "th": "คลองบางพราน" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10150,
+    "province": { "en": "Bangkok", "th": "กรุงเทพมหานคร" },
+    "district": { "en": "Bang Bon", "th": "บางบอน" },
+    "subDistrict": { "en": "Khlong Bang Bon", "th": "คลองบางบอน" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10270,
+    "province": { "en": "Samut Prakan", "th": "สมุทรปราการ" },
+    "district": { "en": "Mueang Samut Prakan", "th": "เมืองสมุทรปราการ" },
+    "subDistrict": { "en": "Pak Nam", "th": "ปากน้ำ" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10270,
+    "province": { "en": "Samut Prakan", "th": "สมุทรปราการ" },
+    "district": { "en": "Mueang Samut Prakan", "th": "เมืองสมุทรปราการ" },
+    "subDistrict": { "en": "Samrong Nuea", "th": "สำโรงเหนือ" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 10270,
+    "province": { "en": "Samut Prakan", "th": "สมุทรปราการ" },
+    "district": { "en": "Mueang Samut Prakan", "th": "เมืองสมุทรปราการ" },
+    "subDistrict": { "en": "Bang Mueang", "th": "บางเมือง" },
+    "region": "ภาคกลาง"
+  },
+  {
+    "code": 96220,
+    "province": { "en": "Narathiwat", "th": "นราธิวาส" },
+    "district": { "en": "Chanae", "th": "จะแนะ" },
+    "subDistrict": { "en": "Phadung Mat", "th": "ผดุงมาตร" },
+    "region": "ภาคใต้"
+  },
+  {
+    "code": 96220,
+    "province": { "en": "Narathiwat", "th": "นราธิวาส" },
+    "district": { "en": "Chanae", "th": "จะแนะ" },
+    "subDistrict": { "en": "Chang Phueak", "th": "ช้างเผือก" },
+    "region": "ภาคใต้"
+  },
+  {
+    "code": 96130,
+    "province": { "en": "Narathiwat", "th": "นราธิวาส" },
+    "district": { "en": "Cho-airong", "th": "เจาะไอร้อง" },
+    "subDistrict": { "en": "Chuap", "th": "จวบ" },
+    "region": "ภาคใต้"
+  },
+  {
+    "code": 96130,
+    "province": { "en": "Narathiwat", "th": "นราธิวาส" },
+    "district": { "en": "Cho-airong", "th": "เจาะไอร้อง" },
+    "subDistrict": { "en": "Bukit", "th": "บูกิต" },
+    "region": "ภาคใต้"
+  },
+  {
+    "code": 96130,
+    "province": { "en": "Narathiwat", "th": "นราธิวาส" },
+    "district": { "en": "Cho-airong", "th": "เจาะไอร้อง" },
+    "subDistrict": { "en": "Maruebo Ok", "th": "มะรือโบออก" },
+    "region": "ภาคใต้"
+  }
+]

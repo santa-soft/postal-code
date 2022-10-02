@@ -23,4 +23,8 @@
 # Ignore code-workspaces
 *.code-workspace
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+raw-data/*
+!raw-data/ThepExcel-Thailand-Tambon.csv
+
+.test/th/*
+!.test/th/test_codes.json
