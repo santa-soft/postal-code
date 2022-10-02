@@ -5,14 +5,20 @@ export type CountryOptions = {
 };
 
 export interface ThaiPostalOption {
-  en: string,
-  th: string
+  en: string;
+  th: string;
 }
 
 export interface PostalAddress {
-  code: number,
-  province: ThaiPostalOption,
-  district: ThaiPostalOption,
-  subDistrict: ThaiPostalOption,
-  region?: string
+  code: number;
+  province: string | ThaiPostalOption;
+  district: string | ThaiPostalOption;
+  subDistrict: string | ThaiPostalOption;
+  region?: string;
+}
+
+export interface PostalCodeOptions {
+  country?: string;
+  resourceUrl?: string;
+  cachePath?: string;
 }
