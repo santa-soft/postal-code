@@ -11,9 +11,17 @@ export interface ThaiPostalOption {
 
 export interface PostalAddress {
   code: number;
-  province: string | ThaiPostalOption;
-  district: string | ThaiPostalOption;
-  subDistrict: string | ThaiPostalOption;
+  province: ThaiPostalOption;
+  district: ThaiPostalOption;
+  subDistrict: ThaiPostalOption;
+  region?: string;
+}
+
+export interface AddressAnwser {
+  code: number;
+  province: string;
+  district: string;
+  subDistrict: string;
   region?: string;
 }
 
@@ -21,4 +29,5 @@ export interface PostalCodeOptions {
   country?: string;
   resourceUrl?: string;
   cachePath?: string;
+  lang?: string;
 }

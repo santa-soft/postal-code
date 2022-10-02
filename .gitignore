@@ -25,4 +25,6 @@
 
 raw-data/*
 !raw-data/ThepExcel-Thailand-Tambon.csv
-.test/
+
+.test/th/*
+!.test/th/test_codes.json

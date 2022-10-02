@@ -1,11 +1,31 @@
-import { PostalCodeOptions } from "./types.ts";
+import { PostalAddress, PostalCodeOptions, AddressAnwser } from "./types.ts";
 import { copy, dirname, ensureDir, readerFromStreamReader } from "./deps.ts";
 
 export class PostalCode {
   public options: PostalCodeOptions;
+  private address: Array<PostalAddress>;
 
   constructor(private prop: PostalCodeOptions) {
     this.options = prop;
+    this.address = JSON.parse(Deno.readTextFileSync(prop.cachePath!)) as Array<PostalAddress>;
+  }
+
+  public addressOf = (zip: number | string): Array<AddressAnwser> | null => {
+    if(typeof zip === "string" && !zip.match(/^[0-9]{5}$/)) {
+      throw new Deno.errors.NotSupported();
+    }
+    zip = (typeof zip === "string") ? parseInt(zip) : zip;
+    const lang = this.options.lang || "en";
+    
+    return this.address.filter(addr => addr.code === zip)
+      .map(addr => {
+        return {
+          code: addr.code,
+          province: addr.province[lang as keyof typeof addr.province],
+          district: addr.district[lang as keyof typeof addr.district],
+          subDistrict: addr.subDistrict[lang as keyof typeof addr.subDistrict]
+        } as AddressAnwser;
+      });
   }
 }
 
@@ -21,9 +41,7 @@ export const createPostalCode = async (
     throw new Deno.errors.NotSupported("Not Supported the Options!");
   }
 
-  const countryCode = (typeof country === "number" && country === 66)
-    ? "th"
-    : country;
+  const countryCode = (typeof country === "number" && country === 66) ? "th" : country;
 
   const defaultOptions = {
     country: countryCode,
