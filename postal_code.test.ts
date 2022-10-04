@@ -1,9 +1,10 @@
-import { assertNotMatch } from "https://deno.land/std@0.144.0/testing/asserts.ts";
 import {
   afterEach,
   assertEquals,
   assertFalse,
+  assertNotMatch,
   assertRejects,
+  assertThrows,
   describe,
   fail,
   it,
@@ -88,7 +89,12 @@ describe(`PostalCode`, () => {
 
   const testJsonPath = "./.test/th/postal_codes.json";
 
-  const postalCode = new PostalCode({ country: "th", cachePath: "./.test/th/test_codes.json", lang: "th" });
+  const postalCode = new PostalCode({
+    country: "th",
+    cachePath: "./.test/th/test_codes.json",
+    lang: "th",
+  });
+
   it(`addressOf(xxxxx) get address`, () => {
     const address = postalCode.addressOf(10270);
     assertFalse(!Array.isArray(address));
@@ -96,6 +102,12 @@ describe(`PostalCode`, () => {
     assertNotMatch(address?.at(0)?.province as string, /[A-Za-z]/);
     assertNotMatch(address?.at(0)?.district as string, /[A-Za-z]/);
     assertNotMatch(address?.at(0)?.subDistrict as string, /[A-Za-z]/);
+  });
+
+  it(`addressOf() will error when passed string contains non-numeric character`, () => {
+    assertThrows(() => {
+      postalCode.addressOf("101SO");
+    }, Deno.errors.NotSupported);
   });
 });
 

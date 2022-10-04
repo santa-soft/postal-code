@@ -2,6 +2,7 @@ export {
   assertEquals,
   assertFalse,
   assertNotEquals,
+  assertNotMatch,
   assertRejects,
   assertThrows,
   fail,
