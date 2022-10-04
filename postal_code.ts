@@ -1,4 +1,4 @@
-import { PostalAddress, PostalCodeOptions, AddressAnwser } from "./types.ts";
+import { AddressAnwser, PostalAddress, PostalCodeOptions } from "./types.ts";
 import { copy, dirname, ensureDir, readerFromStreamReader } from "./deps.ts";
 
 export class PostalCode {
@@ -11,22 +11,22 @@ export class PostalCode {
   }
 
   public addressOf = (zip: number | string): Array<AddressAnwser> | null => {
-    if(typeof zip === "string" && !zip.match(/^[0-9]{5}$/)) {
+    if (typeof zip === "string" && zip.match(/[A-Za-z\s]*/)) {
       throw new Deno.errors.NotSupported();
     }
     zip = (typeof zip === "string") ? parseInt(zip) : zip;
     const lang = this.options.lang || "en";
-    
-    return this.address.filter(addr => addr.code === zip)
-      .map(addr => {
+
+    return this.address.filter((addr) => addr.code === zip)
+      .map((addr) => {
         return {
           code: addr.code,
           province: addr.province[lang as keyof typeof addr.province],
           district: addr.district[lang as keyof typeof addr.district],
-          subDistrict: addr.subDistrict[lang as keyof typeof addr.subDistrict]
+          subDistrict: addr.subDistrict[lang as keyof typeof addr.subDistrict],
         } as AddressAnwser;
       });
-  }
+  };
 }
 
 export const createPostalCode = async (
